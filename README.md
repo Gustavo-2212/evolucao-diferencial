@@ -61,13 +61,13 @@ a função quando ela recebe um array contendo os valores das N variáveis, bem 
 **Para que serve:** A Função Rastrigin é usada principalmente como um benchmark para avaliar o desempenho de algoritmos de otimização em espaços de busca multi-modais e não-convexos.
 
 **Fórmula matemática:**
-A formulação da Função Rastrigin para um vetor $ x $ de dimensão $ n $ é dada por:
+A formulação da Função Rastrigin para um vetor $$ x $$ de dimensão $$ n $$ é dada por:
 
 $$
     f(x) = An + \sum_{i=1}^{n} (x_i^2 - A\cos(2\pi x_i))
 $$
 
-Onde $ A $ é uma constante geralmente definida como 10.
+Onde $$ A $$ é uma constante geralmente definida como $$ 10 $$.
 
 ### [Função Rosenbrock](https://www.sfu.ca/~ssurjano/rosen.html)
 
@@ -83,14 +83,14 @@ Onde $ A $ é uma constante geralmente definida como 10.
 **Para que serve:** Assim como a Função Rastrigin, a Função Rosenbrock é usada como um benchmark para avaliar o desempenho de algoritmos de otimização, especialmente em problemas não-lineares e multimodais.
 
 **Fórmula matemática:**
-A formulação da Função Rosenbrock para um vetor $ x $ de dimensão $ n $ é dada por:
+A formulação da Função Rosenbrock para um vetor $$ x $$ de dimensão $$ n $$ é dada por:
 
 
 $$
     f(x) = \sum_{i=1}^{n-1} (100(x_{i+1} - x_i^2)^2 + (1 - x_i)^2) 
 $$
 
-A função Rosenbrock atinge seu mínimo global de $ f(x) = 0 $ em $ x_i = 1 $ para $ i = 1, 2, ..., n $.
+A função Rosenbrock atinge seu mínimo global de $$ f(x) = 0 $$ em $$ x_i = 1 $$ para $$ i = 1, 2, ..., n $$.
 
 
 > Visite o site da [SFU](https://www.sfu.ca/~ssurjano/optimization.html) para mais exemplos de funções para teste em algoritmos de otimização.
