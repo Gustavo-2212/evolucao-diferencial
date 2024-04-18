@@ -63,9 +63,9 @@ a função quando ela recebe um array contendo os valores das N variáveis, bem 
 **Fórmula matemática:**
 A formulação da Função Rastrigin para um vetor $ x $ de dimensão $ n $ é dada por:
 
-$
+$$
     f(x) = An + \sum_{i=1}^{n} (x_i^2 - A\cos(2\pi x_i))
-$
+$$
 
 Onde $ A $ é uma constante geralmente definida como 10.
 
@@ -86,9 +86,9 @@ Onde $ A $ é uma constante geralmente definida como 10.
 A formulação da Função Rosenbrock para um vetor $ x $ de dimensão $ n $ é dada por:
 
 
-$
+$$
     f(x) = \sum_{i=1}^{n-1} (100(x_{i+1} - x_i^2)^2 + (1 - x_i)^2) 
-$
+$$
 
 A função Rosenbrock atinge seu mínimo global de $ f(x) = 0 $ em $ x_i = 1 $ para $ i = 1, 2, ..., n $.
 
