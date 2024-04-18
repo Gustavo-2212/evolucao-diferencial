@@ -1,4 +1,4 @@
-# Projeto de Aprendizado de Máquina com Redes Multicamadas 🧠
+# Projeto de Aprendizado de Máquina com Evolução Diferencial 🧠
 ---
 ### Autor
 - **Nome:** Gustavo Alves de Oliveira
